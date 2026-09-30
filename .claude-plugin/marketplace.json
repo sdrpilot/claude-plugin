@@ -1,0 +1,16 @@
+{
+  "name": "sdrpilot",
+  "description": "The official Claude Code plugin for SDRPilot: a playbook skill plus the MCP connection to your own workspace, with live help docs.",
+  "owner": {
+    "name": "SDRPilot",
+    "url": "https://sdrpilot.ai"
+  },
+  "plugins": [
+    {
+      "name": "sdrpilot",
+      "source": "./plugins/sdrpilot",
+      "description": "Run LinkedIn outreach with SDRPilot from Claude: ICP, leads, the connection queue, conversations, content and analytics, with the live help docs on tap.",
+      "category": "productivity"
+    }
+  ]
+}

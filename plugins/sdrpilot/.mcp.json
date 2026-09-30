@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sdrpilot": {
+      "type": "http",
+      "url": "https://mcp.sdrpilot.ai/mcp",
+      "headers": {
+        "X-API-Key": "${user_config.api_key}"
+      }
+    }
+  }
+}

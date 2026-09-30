@@ -1,0 +1,28 @@
+{
+  "name": "sdrpilot",
+  "version": "1.0.0",
+  "description": "Run LinkedIn outreach with SDRPilot from Claude: ICP, leads, the connection queue, conversations, content and analytics, with the live help docs on tap.",
+  "author": {
+    "name": "SDRPilot",
+    "url": "https://sdrpilot.ai"
+  },
+  "homepage": "https://help.sdrpilot.ai/api/api-and-mcp/",
+  "repository": "https://github.com/sdrpilot/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "sdrpilot",
+    "linkedin",
+    "outreach",
+    "lead-generation",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "API key",
+      "description": "The API key of the account you sign in to SDRPilot with. In SDRPilot open Settings, then API and AI assistants, to find it. It is stored in your system keychain and sent only to the SDRPilot MCP server.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
